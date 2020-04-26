@@ -60,5 +60,18 @@
  
 </div>
 
+<br />
+<div class="alert alert-danger" role="alert">
+<%
+String message = (String) request.getAttribute("message");
+
+if(message != null){
+	out.print(message);
+}
+
+%>
+
+</div>
+
 </body>
 </html>

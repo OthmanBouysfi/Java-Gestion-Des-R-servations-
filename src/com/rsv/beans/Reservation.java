@@ -3,7 +3,7 @@ package com.rsv.beans;
 public class Reservation {
 
 	  private String type;
-	  private String prix;
+	  private Double prix;
 	  private String option;
 	  
 	  
@@ -22,12 +22,12 @@ public class Reservation {
 	}
 
 
-	public String getPrix() {
+	public Double getPrix() {
 		return prix;
 	}
 
 
-	public void setPrix(String prix) {
+	public void setPrix(Double prix) {
 		this.prix = prix;
 	}
 
