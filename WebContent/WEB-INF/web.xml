@@ -9,4 +9,13 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>GestionRéservations</servlet-name>
+  <servlet-class>com.rsv.servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>GestionRéservations</servlet-name>
+  <url-pattern>/reservation</url-pattern>
+  </servlet-mapping>
 </web-app>
