@@ -11,13 +11,13 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class creer_rsc
  */
 @WebServlet("/creer_rsc")
-public class creer_rsc extends HttpServlet {
+public class creer_rsv extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public creer_rsc() {
+    public creer_rsv() {
         super();
         // TODO Auto-generated constructor stub
     }

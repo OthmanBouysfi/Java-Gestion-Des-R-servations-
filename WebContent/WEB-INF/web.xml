@@ -11,11 +11,20 @@
   </welcome-file-list>
   
   <servlet>
-  <servlet-name>GestionRéservations</servlet-name>
-  <servlet-class>com.rsv.servlet</servlet-class>
+  <servlet-name>creer_client</servlet-name>
+  <servlet-class>com.rsv.servlet.creer_client</servlet-class>
   </servlet>
   <servlet-mapping>
-  <servlet-name>GestionRéservations</servlet-name>
+  <servlet-name>creer_client</servlet-name>
+  <url-pattern>/client</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>creer_reservation</servlet-name>
+  <servlet-class>com.rsv.servlet.creer_rsv</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>creer_reservation</servlet-name>
   <url-pattern>/reservation</url-pattern>
   </servlet-mapping>
 </web-app>
